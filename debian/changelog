@@ -1,3 +1,9 @@
+rootskel-gtk (2:11.0.1+parrot2) parrot-updates; urgency=medium
+
+  * Use ICY-Dark as dark theme.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 14 Jan 2022 01:04:05 +0100
+
 rootskel-gtk (2:11.0.1+parrot1) lts-updates; urgency=medium
 
   * Use dark theme by default.
