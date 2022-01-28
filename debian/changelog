@@ -1,3 +1,10 @@
+rootskel-gtk (2:11.0.1+parrot3) parrot-updates; urgency=medium
+
+  * Restore default theme.
+  * Fix header picture.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 28 Jan 2022 14:11:18 +0100
+
 rootskel-gtk (2:11.0.1+parrot2) parrot-updates; urgency=medium
 
   * Use ICY-Dark as dark theme.
