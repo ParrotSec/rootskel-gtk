@@ -1,3 +1,43 @@
+rootskel-gtk (12.0.3) lory; urgency=medium
+
+  * Import new Debian release.
+  * Use dark theme by default.
+  * Use Parrot theming.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Mon, 27 May 2024 03:11:06 +0200
+
+rootskel-gtk (12.0.2) unstable; urgency=medium
+
+  [ Cyril Brulebois ]
+  * Add support for banner metadata (logo_installer.ini), to be used by
+    cdebconf-gtk-udeb to determine where the banner label should be
+    placed, and which side(s) can be expanded when the GTK window is wider
+    than the banner logo (See: #745359, Closes: #1036321).
+  * Perform some SVG surgery on the dark banner to make sure the PNG
+    export gives appropriate results.
+
+  [ Aurélien COUDERC ]
+  * Align dark banner colors with dark/high-contrast theme.
+  * Fix document viewport, making sure the first and last 1-px columns are
+    rendered consistently.
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 23 May 2023 12:08:19 +0200
+
+rootskel-gtk (12.0.1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable):
+    + Build-Depends: Drop versioned constraint on dpkg-dev.
+
+  [ Jonathan Carter ]
+  * Update graphical banner for Debian 12 theme
+  * Update GTK theme for emerald colours
+  * Update notification icons
+  * Update standards version to 4.6.1
+  * Update copyright filename and copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Sun, 11 Dec 2022 12:52:30 +0200
+
 rootskel-gtk (2:11.0.1+parrot3) parrot-updates; urgency=medium
 
   * Restore default theme.

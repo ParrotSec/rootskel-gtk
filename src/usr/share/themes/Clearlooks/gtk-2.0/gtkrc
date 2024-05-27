@@ -25,38 +25,41 @@ style "clearlooks-default"
 	xthickness = 1
 	ythickness = 1
 
-	fg[NORMAL]		= "#000000"
-	fg[PRELIGHT]		= "#000000"
-	fg[SELECTED]		= "#ffffff"
-	fg[ACTIVE]		= "#000000"
-	fg[INSENSITIVE]		= "#b3b3b3"
+	fg[NORMAL]		= "#000000" # black
+	fg[PRELIGHT]		= "#000000" # black
+	fg[SELECTED]		= "#ffffff" # white
+	fg[ACTIVE]		= "#000000" # black
+	fg[INSENSITIVE]		= "#b5b3ac" # dark beige
 
-	bg[NORMAL]		= "#ffffff"
-	bg[PRELIGHT]		= "#e6e6e6"
-	bg[SELECTED]		= "#2777ff"
-	bg[INSENSITIVE]		= "#fafafa"
-	bg[ACTIVE]		= "#ffffff"
+	bg[NORMAL]		= "#ede9e3"
+	bg[PRELIGHT]		= "#f9f7f3" # very light beige
+#	bg[SELECTED]            = "#d60052" # Debian red
+	bg[SELECTED]		= "#298d85" # emerald lighter colour
+	bg[INSENSITIVE]		= "#efebe5" # beige
+	bg[ACTIVE]		= "#dcd4c9" #"#d7d3ca" # dark beige
 
-	base[NORMAL]		= "#fafafa"
-	base[PRELIGHT]		= "#e6e6e6"
-	base[ACTIVE]		= "#2777ff"
-	base[SELECTED]		= "#4a88f1"
-	base[INSENSITIVE]	= "#fcfcfc"
+	base[NORMAL]		= "#ffffff" # white
+	base[PRELIGHT]		= "#5f8ec4" # dark beige
+#	base[ACTIVE]            = "#b20044" # Debian darker red
+	base[ACTIVE]		= "#05475c" # emerald darker colour
+#	base[SELECTED]          = "#d60052" # Debian red
+	base[SELECTED]		= "#298d85"  # emerald lighter colour
+	base[INSENSITIVE]	= "#e8e5de" # beige
 
-	text[NORMAL]		= "#000000"
-	text[PRELIGHT]		= "#000000"
-	text[ACTIVE]		= "#ffffff"
-	text[SELECTED]		= "#ffffff"
-	text[INSENSITIVE]	= "#b3b3b3"
+	text[NORMAL]		= "#000000" # black
+	text[PRELIGHT]		= "#000000" # black
+	text[ACTIVE]		= "#ffffff" # white
+	text[SELECTED]		= "#ffffff" # white
+	text[INSENSITIVE]	= "#b5b3ac" # dark beige
 
 	engine "clearlooks"
 	{
-		scrollbar_color		= "#ffffff"
-		menubarstyle		= 2	# 0 = flat, 1 = sunken, 2 = flat gradient
-		#menuitemstyle		= 1	# 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
-		#listviewitemstyle	= 1	# 0 = flat, 1 = 3d-ish (gradient)
-		#progressbarstyle	= 1	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
-		animation		= TRUE
+	#scrollbar_color	= "#76acde"
+	menubarstyle		= 2	# 0 = flat, 1 = sunken, 2 = flat gradient
+	#menuitemstyle		= 1	# 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
+	#listviewitemstyle	= 1	# 0 = flat, 1 = 3d-ish (gradient)
+	#progressbarstyle	= 1	# 0 = candy bar, 1 = fancy candy bar, 2 = flat
+	animation		= FALSE
 	}
 }
 
@@ -74,15 +77,15 @@ style "clearlooks-wider" = "clearlooks-default"
 
 style "clearlooks-button" = "clearlooks-wider"
 {
-	bg[NORMAL]	= "#ffffff"
-	bg[INSENSITIVE]	= "#e6e6e6"
-	bg[PRELIGHT]	= "#ffffff"
+	bg[NORMAL]	= "#f6f4f1"
+	bg[INSENSITIVE]	= "#f2efeb"
+	bg[PRELIGHT]	= "#faf9f8"
 }
 
 style "clearlooks-notebook" = "clearlooks-wide"
 {
-	bg[NORMAL]	= "#fafafa"
-	bg[INSENSITIVE] = "#fafafa"
+	bg[NORMAL]	= "#efebe5"
+	bg[INSENSITIVE] = "#efebe5"
 }
 
 style "clearlooks-tasklist" = "clearlooks-default"
@@ -95,7 +98,7 @@ style "clearlooks-menu" = "clearlooks-default"
 {
 	xthickness = 2
 	ythickness = 1
-	bg[NORMAL] = "#ffffff"
+	bg[NORMAL] = "#f9f7f3"
 }
 
 style "clearlooks-menubar-item" = "clearlooks-button"
@@ -119,7 +122,7 @@ style "clearlooks-tree" = "clearlooks-default"
 
 style "clearlooks-frame-title" = "clearlooks-default"
 {
-	fg[NORMAL] = "#383c4a"
+	fg[NORMAL] = "#404040"
 }
 
 style "clearlooks-tooltips" = "clearlooks-default"
@@ -142,7 +145,7 @@ style "clearlooks-combo" = "clearlooks-button"
 
 style "clearlooks-menubar" = "blackrock-default"
 {
-	bg[NORMAL]	= "#678bc8"
+	bg[NORMAL]	= "#bacedb"
 }
 
 # widget styles

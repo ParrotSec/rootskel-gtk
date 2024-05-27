@@ -1,10 +1,10 @@
 Source: rootskel-gtk
 Section: debian-installer
 Priority: optional
-Maintainer: Parrot Dev Team <team@parrotsec.org>
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
 Uploaders: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
-Build-Depends: debhelper-compat (=13), dpkg-dev (>= 1.17.27), librsvg2-bin
-Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), librsvg2-bin
+Standards-Version: 4.6.1
 Rules-Requires-Root: no
 
 Package: rootskel-gtk
